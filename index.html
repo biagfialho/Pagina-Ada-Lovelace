@@ -5,7 +5,7 @@
        <link href="css/style.css" aria-busy rel="stylesheet">
      </head>
      <body>
-      <button id="btn-tema">🌙 Mudar tema</button>
+      <button id="btn-tema">🌙</button>
 
        <h1>Mulheres que fizeram história na tecnologia</h1>
 
@@ -85,15 +85,21 @@
       </nav>
     <h4>Quer saber mais sobre outras mulheres que fizeram 
       história na programação? Deixe seu email!</h4>
-      <form>
-        <label for="nome">Nome</label>
-        <input id="nome" type="text">
 
-        <label for="email">Email</label>
-        <input id="email" type="email" required>
-        
-        <button id="enviar">Enviar</button>
-      </form>
+      <form class="formulario">
+      <h4>Receba novidades sobre Mulheres na Tecnologia ✨</h4>
+
+      <label for="nome">Nome</label>
+      <input id="nome" type="text" placeholder="Digite seu nome">
+
+      <label for="email">Email</label>
+      <input id="email" type="email" placeholder="Digite seu email">
+
+      <button id="enviar" type="button">Enviar</button>
+
+      <p id="mensagem-form"></p>
+    </form>
+
 
       <script type="text/javascript" src="js/script.js"></script>
     </body>

@@ -12,22 +12,45 @@ document.getElementById("enviar").addEventListener("click", validarFormulario);
  //</form>
 
 //JS
+document.getElementById("enviar").addEventListener("click", validarFormulario);
+
 function validarFormulario() {
+  const nome = document.getElementById("nome").value.trim();
+  const email = document.getElementById("email").value.trim();
+  const mensagem = document.getElementById("mensagem-form");
 
-  if(document.getElementById("nome").value !== "" && document.getElementById("email").value !== "")
-    {alert("Prontinho! Você receberá as novidades por email.");
-  }
-  else{
-    alert("Por favor, preencha os campos nome e email")
+  if (nome === "" || email === "") {
+    mensagem.textContent = "⚠️ Por favor, preencha todos os campos.";
+    mensagem.style.color = "#ff9e9e";
+    return;
   }
 
-};
+  if (!email.includes("@")) {
+    mensagem.textContent = "⚠️ Digite um email válido.";
+    mensagem.style.color = "#ff9e9e";
+    return;
+  }
+
+  mensagem.textContent = "✅ Obrigada! Em breve você receberá novidades.";
+  mensagem.style.color = "#03dac6";
+
+  document.getElementById("nome").value = "";
+  document.getElementById("email").value = "";
+}
+
 
 const botaoTema = document.getElementById("btn-tema");
 
 botaoTema.addEventListener("click", function () {
   document.body.classList.toggle("dark-mode");
+
+  if (document.body.classList.contains("dark-mode")) {
+    botaoTema.textContent = "☀️";
+  } else {
+    botaoTema.textContent = "🌙";
+  }
 });
+
 
 
 
