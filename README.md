@@ -77,7 +77,7 @@ O site será aberto no navegador
 
 O projeto pode ser acessado diretamente pelo GitHub Pages:
 
-[adicione aqui o link do GitHub Pages quando publicar](https://biagfialho.github.io/Pagina-Ada-Lovelace/)
+[GitHub Pages](https://biagfialho.github.io/Pagina-Ada-Lovelace/)
 
 ### Aprendizados
 
