@@ -85,4 +85,14 @@ a{
   border-radius: 3px;
  }
 
+.dark-mode {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+.dark-mode h1,
+.dark-mode h2 {
+  color: #bb86fc;
+}
+
  

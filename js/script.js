@@ -23,4 +23,11 @@ function validarFormulario() {
 
 };
 
+const botaoTema = document.getElementById("btn-tema");
+
+botaoTema.addEventListener("click", function () {
+  document.body.classList.toggle("dark-mode");
+});
+
+
 
