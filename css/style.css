@@ -72,27 +72,108 @@ a{
    color: #fff;
    text-decoration: underline;
    font-weight: normal;
- }
+   color: #ffffff;
+   text-decoration: none;
 
- .principal li {
+   font-size: 18px;
+   font-weight: 700;
+   text-transform: uppercase;
+   letter-spacing: 1.5px;
+
+   transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.principal a:hover {
+  color: #2a0074;
+  transform: translateY(-2px);
+}
+
+ .principal ul {
+  margin: 0;
+  padding: 0;
+}
+
+.principal li {
   display: inline-block;
- }
+  margin: 0 20px;
+}
 
- button {
-  background: #41f341;
-  border: 1px solid transparent;
-  padding: 2px 20 2px 20px;
-  border-radius: 3px;
- }
+ .principal {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  background: rgba(255, 108, 181, 0.95);
+  backdrop-filter: blur(4px);
+
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+ /* ===== MODO ESCURO ===== */
 
 .dark-mode {
   background-color: #1e1e1e;
-  color: #ffffff;
+  color: #e0e0e0; /* texto padrão */
 }
 
-.dark-mode h1,
-.dark-mode h2 {
+/* Título principal */
+.dark-mode h1 {
   color: #bb86fc;
 }
+
+/* Subtítulos */
+.dark-mode h2 {
+  color: #9a67ea;
+}
+
+/* Títulos de seção (h3) */
+.dark-mode h3 {
+  color: #03dac6;
+}
+
+/* Parágrafos */
+.dark-mode p {
+  color: #d0d0d0;
+}
+
+/* Links */
+.dark-mode a {
+  color: #82b1ff;
+}
+
+/* Menu */
+.dark-mode .principal {
+  background-color: #2a2a2a;
+}
+
+/* Botões */
+.dark-mode button {
+  background-color: #03dac6;
+  color: #000;
+}
+
+body {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark-mode .principal {
+  background: rgba(30, 30, 30, 0.95);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+.dark-mode .principal a {
+  color: #bb86fc;
+}
+
+.dark-mode .principal a:hover {
+  color: #03dac6;
+}
+
+
 
  

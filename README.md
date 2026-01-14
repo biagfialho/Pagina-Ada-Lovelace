@@ -49,6 +49,7 @@ site-ada/
 │   └── (imagens do projeto)
 └── README.md
 ```
+
 ### Funcionalidades
 
 Navegação interna por seções (Infância, Juventude e Vida Adulta)
@@ -67,9 +68,9 @@ Publicação do site via GitHub Pages
 
 ### Opção 1 – Executar localmente
 
-* Clone ou faça o download do repositório
-* Abra a pasta do projeto
-* Clique duas vezes no arquivo index.html
+- Clone ou faça o download do repositório
+- Abra a pasta do projeto
+- Clique duas vezes no arquivo index.html
 
 O site será aberto no navegador
 
@@ -81,19 +82,19 @@ O projeto pode ser acessado diretamente pelo GitHub Pages:
 
 ### Aprendizados
 
-* Durante o desenvolvimento deste projeto, foram consolidados conhecimentos importantes como:
+- Durante o desenvolvimento deste projeto, foram consolidados conhecimentos importantes como:
 
-* Organização de projetos front-end
+- Organização de projetos front-end
 
-* Boas práticas de HTML semântico
+- Boas práticas de HTML semântico
 
-* Separação de responsabilidades (HTML, CSS e JS)
+- Separação de responsabilidades (HTML, CSS e JS)
 
-* Versionamento de código com Git
+- Versionamento de código com Git
 
-* Integração entre VS Code e GitHub
+- Integração entre VS Code e GitHub
 
-* Resolução de conflitos e sincronização de repositórios
+- Resolução de conflitos e sincronização de repositórios
 
 ### Autora
 
@@ -103,5 +104,4 @@ Bianca
 ### Observação Final
 
 Este projeto faz parte da minha jornada de aprendizado contínuo em tecnologia.
-Sugestões e feedbacks são sempre bem-vindos!
-
+Sugestões e feedbacks são sempre bem-vindos! 
