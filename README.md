@@ -48,8 +48,8 @@ site-ada/
 ├── img/
 │   └── (imagens do projeto)
 └── README.md
-
-Funcionalidades
+```
+### Funcionalidades
 
 Navegação interna por seções (Infância, Juventude e Vida Adulta)
 
