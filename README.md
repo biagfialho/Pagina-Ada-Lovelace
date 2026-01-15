@@ -82,8 +82,8 @@ O projeto pode ser acessado diretamente pelo GitHub Pages:
 
 ## 📸 Preview do Projeto
 
-(![Preview da página Ada Lovelace - clara](assets/ada 1.png))
-(![Preview da página Ada Lovelace - escura](assets/ada 2.png))
+(![Preview da página Ada Lovelace - clara](img/ada 1.png))
+(![Preview da página Ada Lovelace - escura](img/ada 2.png))
 
 
 
