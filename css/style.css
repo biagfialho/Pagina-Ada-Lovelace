@@ -350,3 +350,31 @@ html {
   background: #bb86fc;
   color: #000;
 }
+
+@media (max-width: 768px) {
+
+  @media (max-width: 768px) {
+
+  .timeline {
+    width: 90%;
+  }
+
+  .timeline-item {
+    flex-direction: column;
+    padding-left: 30px;
+  }
+
+  .timeline-item::before {
+    left: 10px;
+  }
+
+  .timeline-date {
+    margin-bottom: 15px;
+    margin-right: 0;
+  }
+
+  .timeline-content {
+    width: 100%;
+  }
+
+}
