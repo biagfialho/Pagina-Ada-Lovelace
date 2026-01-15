@@ -80,9 +80,11 @@ O projeto pode ser acessado diretamente pelo GitHub Pages:
 
 [GitHub Pages](https://biagfialho.github.io/Pagina-Ada-Lovelace/)
 
-![Print da página com interface clara]("C:\Users\biancafialho\Downloads\ada 1.png")
-![Print da página com interface escura]("C:\Users\biancafialho\Downloads\ada 2.png")
+## 📸 Preview do Projeto
 
+![Preview da página Ada Lovelace - tema claro](img/ada 1.png)
+
+![Preview da página Ada Lovelace - tema escuro](img/ada 2.png)
 
 ### Aprendizados
 
