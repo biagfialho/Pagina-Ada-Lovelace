@@ -51,6 +51,30 @@ botaoTema.addEventListener("click", function () {
   }
 });
 
+const sections = document.querySelectorAll("section[id]");
+const menuLinks = document.querySelectorAll(".principal a");
+
+window.addEventListener("scroll", () => {
+  let scrollAtual = window.scrollY + 100;
+
+  sections.forEach(section => {
+    const topo = section.offsetTop;
+    const altura = section.offsetHeight;
+    const id = section.getAttribute("id");
+
+    if (scrollAtual >= topo && scrollAtual < topo + altura) {
+      menuLinks.forEach(link => link.classList.remove("ativo"));
+
+      const linkAtivo = document.querySelector(
+        `.principal a[href="#${id}"]`
+      );
+
+      if (linkAtivo) {
+        linkAtivo.classList.add("ativo");
+      }
+    }
+  });
+});
 
 
 

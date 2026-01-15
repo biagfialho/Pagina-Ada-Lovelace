@@ -273,3 +273,13 @@ body {
 .dark-mode .formulario label {
   color: #e0e0e0;
 }
+
+.principal a.ativo {
+  color: #03dac6;
+  border-bottom: 3px solid #03dac6;
+  padding-bottom: 5px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
